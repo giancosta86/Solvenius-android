@@ -35,12 +35,8 @@ internal class GameWebView(private val mainActivity: Activity) : WebView(mainAct
 
         settings.defaultTextEncodingName = "utf-8"
 
-        settings.loadWithOverviewMode = true
         settings.useWideViewPort = true
-        settings.builtInZoomControls = false
-        settings.displayZoomControls = false
-        settings.setSupportZoom(false)
-
+        settings.loadWithOverviewMode = true
 
         webViewClient = GameWebViewClient()
         webChromeClient = GameWebChromeClient()
