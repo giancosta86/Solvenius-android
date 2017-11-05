@@ -33,11 +33,6 @@ internal class GameWebView(private val mainActivity: Activity) : WebView(mainAct
         settings.javaScriptEnabled = true
         settings.domStorageEnabled = true
 
-        settings.defaultTextEncodingName = "utf-8"
-
-        settings.useWideViewPort = true
-        settings.loadWithOverviewMode = true
-
         webViewClient = GameWebViewClient()
         webChromeClient = GameWebChromeClient()
     }
