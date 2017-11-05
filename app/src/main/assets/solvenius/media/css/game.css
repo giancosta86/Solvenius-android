@@ -105,12 +105,13 @@
 
 
 .digitButton {
+  border-radius: 0.6em;
   font-weight: bold;
 
-  padding: 0.8em;
-  padding-left: 1em;
-  padding-right: 1em;
+  min-width: 2.3em;
+  padding: 0.4em;
 
+  font-size: 1.3em;
   margin-bottom: 1em;
 }
 
